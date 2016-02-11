@@ -9,13 +9,13 @@ $(document).ready(function() {
 
 			$(".respmenubtn").addClass("respmenubtn-active");
 
-			$(".menu-nav-box").stop().animate({"left": 0}, 900);
+			$(".menu-nav-box").stop().animate({"left": 0}, 600);
 
 		} else {
 
 			$(".respmenubtn").removeClass("respmenubtn-active");
 
-			$(".menu-nav-box").stop().animate({"left": -110 + "%" }, 900);
+			$(".menu-nav-box").stop().animate({"left": -110 + "%" }, 600);
 
 		}
 

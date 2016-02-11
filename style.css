@@ -1040,8 +1040,9 @@ h2:after {
 
 .soc-link-nav-box {
     display: block;
-    width: 100%;
     background: rgba(0, 0, 0, .7);
+    width: 100%;
+    min-height: 100vh;
     position: fixed;
     top: -150%;
     left: 0;
