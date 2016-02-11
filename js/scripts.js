@@ -69,9 +69,10 @@ $(document).ready(function() {
 
     });
 
+
     $(".make-onlineenter").click(function() {
 
-        if ( $(".header-bg").children("online-entry-box").length == 0 ) {
+        if ( $("online-entry-box").length == 0 ) {
 
             $(".header-bg").append("<div class='online-entry-box'></div>");
 
