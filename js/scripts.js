@@ -72,7 +72,7 @@ $(document).ready(function() {
 
     $(".make-onlineenter").click(function() {
 
-        if ( $("online-entry-box").length == 0 ) {
+        if ( $(".header-bg div").hasClass("online-entry-box") != true ) {
 
             $(".header-bg").append("<div class='online-entry-box'></div>");
 

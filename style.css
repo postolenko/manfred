@@ -1041,7 +1041,7 @@ h2:after {
 .soc-link-nav-box {
     display: block;
     width: 100%;
-    background: rgba(0, 0, 0, .8);
+    background: rgba(0, 0, 0, .7);
     position: fixed;
     top: -150%;
     left: 0;
@@ -1135,7 +1135,7 @@ h2:after {
     min-height: auto;
     max-height: 100vh;
     margin: 2% 0 2% -25%;
-    padding: 0% 25%;
+    padding: 2% 25%;
     overflow-y: scroll; 
     text-align: center;
     position: relative;
