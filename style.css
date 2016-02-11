@@ -1286,7 +1286,7 @@ h2:after {
 .online-enter-form {
     display: block;
     width: 150%;
-    margin: 5% 0 0 -25%;
+    margin: 3% 0 0 -25%;
     padding: 0 40%;
     overflow-y: scroll;
     max-height: 80vh;
@@ -1297,8 +1297,8 @@ h2:after {
 .email,
 .comment {
     display: block;
-    width: 100%;
-    margin: 5% 0;
+    width: 80%;
+    margin: 3% auto;
     padding: 1% 2%;
     color: #333333;
     font-family: "Open Sans", Arial, sans-serif;
@@ -1313,7 +1313,7 @@ h2:after {
 }
 
 .comment {
-    height: 150px;
+    height: 130px;
 }
 
 /*.phone {
@@ -1335,15 +1335,15 @@ h2:after {
 
 .send-onlineenter {
     display: block;
-    width: 100%;
-    margin: 5% 0;
-    padding: 1% 2%;
+    width: 80%;
+    margin: 4% auto;
+    padding: 1.5% 2%;
     cursor: pointer;
     color: #ffffff;
     font-family: "Open Sans", Arial, sans-serif;
     font-size: 18px;
     line-height: 34px;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     background: rgba(68, 133, 93, 1);
     border: 1px solid transparent;
