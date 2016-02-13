@@ -33,36 +33,6 @@ $(document).ready(function() {
     });
 
 
-    //  $(".soc-link-btn").click(function() {
-
-    //     if ( $(".header-bg").children("social-nets-box").length == 0 ) {
-
-    //         $(".header-bg").append("<div class='social-nets-box'></div>");
-
-    //         $(".social-nets-box").load("social_nets.html", function() {
-
-    //                 $(".socialnets-list").css({"top": ( $(window).height() - $(".socialnets-list").outerHeight(true) ) / 2 + "px" });
-
-
-    //                 $(".close-socialnets").click(function() {
-
-    //                     $(".social-nets-box").fadeOut(300);
-
-    //                 });
-
-    //         });
-
-    //         $(".socialnets-list").css({"top": ( $(window).height() - $(".socialnets-list").outerHeight(true) ) / 2 + "px" });
-
-    //     }
-
-    //     $(".social-nets-box").fadeIn(600);
-
-
-
-    // });
-
-
     $(".make-onlineenter").on("click", function(e) {
 
         e.preventDefault();

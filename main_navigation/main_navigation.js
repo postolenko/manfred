@@ -3,8 +3,6 @@ $(document).ready(function() {
 
 	$(".respmenubtn").click(function() {
 
-		console.log($(".menu-nav-box").offset().top);
-
 		if ( $(".menu-nav-box").offset().left < 0 ) {
 
 			$(".respmenubtn").addClass("respmenubtn-active");
